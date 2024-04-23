@@ -1,0 +1,36 @@
+.todoitems {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between;
+    padding: 16px 0;
+  }
+  
+  .todoitems-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todoitems-text {
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+  }
+  
+  .todoimages {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    padding-top: 10px; /* Add padding for spacing */
+  }
+  
+  .todoimages img {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+  }
+  
+  .todoitems-cross-icon {
+    cursor: pointer;
+    padding-right: 25px;
+    width: 24px; /* Adjust the width of the cross icon */
+    height: 24px; /* Adjust the height of the cross icon */
+  }
+  
